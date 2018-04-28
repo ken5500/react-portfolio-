@@ -18,6 +18,31 @@ class Landing extends Component {
 
     <hr/>
     <p>Html/CSS | Bootstrap | Javascript | React | React Native | Node.Js | Express | MongoDB</p>
+
+    <div className="social-links">
+
+      {/* Linkendin */}
+      <a href="http://google.com" rel="noopener nopreferrer" target="_blank">
+      <i className="fa fa linkedin-square" aria-hidden="true" />
+
+    </a>  {/* Github */}
+      <a href="http://google.com" rel="noopener nopreferrer" target="_blank">
+      <i className="fa fa github-square" aria-hidden="true" />
+    </a>
+
+    {/* Freecodecamp */}
+      <a href="http://google.com" rel="noopener nopreferrer" target="_blank">
+      <i className="fa fa free-code-camp" aria-hidden="true" />
+    </a>
+
+    {/* Youtube */}
+      <a href="http://google.com" rel="noopener nopreferrer" target="_blank">
+      <i className="fa fa youtube-square" aria-hidden="true" />
+    </a>
+
+
+
+  </div>
   </div>
   </Cell>
   </Grid>
