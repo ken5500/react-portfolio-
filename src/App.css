@@ -82,6 +82,25 @@ margin-bottom: 20px;
 
 }
 
+.contact-grid h2{
+  font-family:  'Anton'. sans-serif;
 
+}
+
+.contact-grid p {
+font-family: 'Oxgen', sans-serif
+font-weight: bold;
+
+}
+
+.contact-grid hr {
+border-top: 5px dotted black;
+margin: auto;
+}
+
+}
+
+
+}
 
 /*  Project CSS*/
