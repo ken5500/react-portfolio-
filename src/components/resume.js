@@ -13,17 +13,17 @@ class Resume extends Component {
         <Cell col={4}>
           <div style={{textAlign: 'center'}}>
           <img
-            src="http://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+            src="https://mail.google.com/mail/u/0/?ui=2&ik=33f5049ecc&view=fimg&th=1631c3689c55ce20&attid=0.1.1&disp=emb&attbid=ANGjdJ-Dogs8TkoapqBDwGKfTN5Ym4d8-7D8HD5yTL3-kdxXWT8sOaNE8DI41RWdJbb9W9ce7ynUwK0lv6qahSOuh3wUH_lR7KJTPficrCwapGTd3NXWvTuk98a-1Ps&sz=s0-l75-ft&ats=1525186757640&rm=1631c3689c55ce20&zw&atsh=1"
             alt="avatar"
             style={{height: '200px'}}
           />
         </div>
 
-        <h2 style={{paddingTop: '2em'}}>Ken Brisard</h2>
+        <h2 style={{paddingTop: '2em', color: 'white' }}>Ken Brisard</h2>
         <h4 style={{color: 'white'}}>Full Stack Web Developer</h4>
-        <hr style={{borderTop: '3px white', width: '50%'}}/>
+        <hr style={{borderTop: 'color: white', width: '50%'}}/>
         <p> My passion for web development started many years ago. Without any technical knowledge, I had to rely on freelancers and web development firms domestically and internationally to build my projects. It turned out to be one bad experience after another. These bad experiences are what motivated me to become a web developer myself and have given me the unique perspective of what it’s like to be the customer, the programmer and everything in between.</p>
-        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+        <hr style={{borderTop: 'color: white', width: '50%'}}/>
         <h5>Address</h5>
         <p>1 Hacker Way Menlo Park, 94025</p>
         <h5>Phone</h5>

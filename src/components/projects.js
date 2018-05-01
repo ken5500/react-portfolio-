@@ -12,13 +12,14 @@ class Project extends Component {
         <div className="project-grid">
           {/*Project #1 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #1</CardTitle>
+          <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/339614/pexels-photo-339614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350") center /cover'}} >Rainforest</CardTitle>
           <CardText>
             What ever I want to describe project
           </CardText>
           <CardActions border>
-            <Button colored>GitHub</Button>
-            <Button colored>Demo</Button>
+            <Button colored>
+              <a href='https://github.com/ken5500'>GitHub</a>
+            </Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name='share'/>
@@ -26,13 +27,13 @@ class Project extends Component {
         </Card>
         {/*Project #2 */}
       <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #2</CardTitle>
+        <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center /cover'}} >React Project #2</CardTitle>
         <CardText>
           What ever I want to describe project
         </CardText>
         <CardActions border>
-          <Button colored>GitHub</Button>
-          <Button colored>Demo</Button>
+          <Button colored><a href='https://github.com/ken5500'>GitHub</a></Button>
+
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
           <IconButton name='share'/>
@@ -40,13 +41,14 @@ class Project extends Component {
       </Card>
       {/*Project #3 */}
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-      <CardTitle style={{color: '#fff', height: '176px', background:'url() center /cover'}} >React Project #3</CardTitle>
+      <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350") center /cover'}} >React Project #3</CardTitle>
       <CardText>
         What ever I want to describe project
       </CardText>
       <CardActions border>
-        <Button colored>GitHub</Button>
-        <Button colored>Demo</Button>
+        <Button colored>
+          <a href='https://github.com/ken5500'>GitHub</a>
+        </Button>
       </CardActions>
       <CardMenu style={{color: '#fff'}}>
         <IconButton name='share'/>
@@ -132,10 +134,10 @@ class Project extends Component {
     return(
       <div className="category-tabs">
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState( { activeTab: tabId})} ripple>
+          <Tab>Ruby</Tab>
           <Tab>React</Tab>
-          <Tab>Javascript</Tab>
           <Tab>Ruby Rails</Tab>
-          <Tab>??????</Tab>
+
         </Tabs>
 
 
