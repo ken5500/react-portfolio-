@@ -9,7 +9,7 @@
 }
 
 .landing-grid {
-  background-image: 'images/nybuilding.jpeg';
+  background-image: url(" http://www.bensonhospital.org/wp-content/uploads/2017/08/Desk-Background.jpg;");
 
  text-align: center;
  postion: fixed;
@@ -21,7 +21,7 @@
 }
 
 .mdl-layout__content {
-  background-image: url("https://images.pexels.com/photos/316137/pexels-photo-316137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-image: url("http://www.bensonhospital.org/wp-content/uploads/2017/08/Desk-Background.jpg");
   background-size: cover;
 }
 
@@ -42,7 +42,8 @@
  .banner-text h1 {
   font-size: 35px;
   font-weight: bold;
-  color: #311313;
+  color: white;
+  padding-top: 140px;
 }
 
 .banner-text hr {
@@ -51,10 +52,12 @@
   margin: auto;
 }
 .banner-text p {
-color: #1e1f21;
+color: white;
 font-size: 20px;
 padding: 1em;
 }
+
+
 
 .social-links {
   display: flex;
