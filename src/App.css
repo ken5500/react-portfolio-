@@ -1,14 +1,15 @@
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #156eb5; /* fallback for old browsers */
+  background: #156eb5;  /* Chrome 10-25, Safari 5.1-6 */
+  background: #156eb5; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+.mdl-layout__header-row {
+  background-color: black;
 }
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: 'images/nybuilding.jpeg';
 
  text-align: center;
  postion: fixed;
@@ -19,13 +20,18 @@
 
 }
 
+.mdl-layout__content {
+  background-image: url("https://images.pexels.com/photos/316137/pexels-photo-316137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+}
+
 .avatar-img {
   height: 250px;
   padding-top: 5em;
 }
 
 .banner-text {
-  background-color:black;
+  background-color:noopener;
   opacity: 8;
   width: 75%;
   margin: auto;
@@ -34,9 +40,9 @@
 
 
  .banner-text h1 {
-  font-size: 66px;
+  font-size: 35px;
   font-weight: bold;
-  color: white;
+  color: #311313;
 }
 
 .banner-text hr {
@@ -45,7 +51,7 @@
   margin: auto;
 }
 .banner-text p {
-color: white;
+color: #1e1f21;
 font-size: 20px;
 padding: 1em;
 }
@@ -69,6 +75,10 @@ padding: 1em;
   display: flex;
 }
 
+.resume-right-col {
+  background:#27221F;
+  color: white;
+}
 
 .contact-body {
 margin: auto;
