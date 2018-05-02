@@ -12,13 +12,13 @@ class Project extends Component {
         <div className="project-grid">
           {/*Project #1 */}
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-          <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/339614/pexels-photo-339614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350") center /cover'}} >Rainforest</CardTitle>
+          <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/339614/pexels-photo-339614.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350") center /cover'}} >Dash</CardTitle>
           <CardText>
-            What ever I want to describe project
+          A portal that will allow parents to access student updates with teachers in a school
           </CardText>
           <CardActions border>
             <Button colored>
-              <a href='https://github.com/ken5500'>GitHub</a>
+              <a href='https://github.com/AnansiRafa/dash'>GitHub</a>
             </Button>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
@@ -27,12 +27,12 @@ class Project extends Component {
         </Card>
         {/*Project #2 */}
       <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-        <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center /cover'}} >React Project #2</CardTitle>
+        <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center /cover'}} >Api Book </CardTitle>
         <CardText>
-          What ever I want to describe project
+         Built an API that allows workflow throughout a libary
         </CardText>
         <CardActions border>
-          <Button colored><a href='https://github.com/ken5500'>GitHub</a></Button>
+          <Button colored><a href='https://github.com/ken5500/Apibook'>GitHub</a></Button>
 
         </CardActions>
         <CardMenu style={{color: '#fff'}}>
@@ -41,13 +41,13 @@ class Project extends Component {
       </Card>
       {/*Project #3 */}
     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-      <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350") center /cover'}} >React Project #3</CardTitle>
+      <CardTitle style={{color: '#fff', height: '176px', background:'url("https://images.pexels.com/photos/301926/pexels-photo-301926.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350") center /cover'}} >React Project</CardTitle>
       <CardText>
-        What ever I want to describe project
+        A  website that allows you to access
       </CardText>
       <CardActions border>
         <Button colored>
-          <a href='https://github.com/ken5500'>GitHub</a>
+          <a href='https://github.com/ken5500/react-portfolio'>GitHub</a>
         </Button>
       </CardActions>
       <CardMenu style={{color: '#fff'}}>
