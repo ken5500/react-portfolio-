@@ -10,29 +10,29 @@ class Resume extends Component {
   return(
     <div>
       <Grid>
-        <Cell col={4}>
+        <Cell col={4} className="left-Resume">
           <div style={{textAlign: 'center'}}>
           <img
             src="https://mail.google.com/mail/u/0/?ui=2&ik=33f5049ecc&view=fimg&th=1631c3689c55ce20&attid=0.1.1&disp=emb&attbid=ANGjdJ-Dogs8TkoapqBDwGKfTN5Ym4d8-7D8HD5yTL3-kdxXWT8sOaNE8DI41RWdJbb9W9ce7ynUwK0lv6qahSOuh3wUH_lR7KJTPficrCwapGTd3NXWvTuk98a-1Ps&sz=s0-l75-ft&ats=1525186757640&rm=1631c3689c55ce20&zw&atsh=1"
             alt="avatar"
-            style={{height: '200px'}}
+            style={{height: '300px'}}
           />
         </div>
 
         <h2 style={{paddingTop: '2em', color: 'white' }}>Ken Brisard</h2>
         <h4 style={{color: 'white'}}>Full Stack Web Developer</h4>
-        <hr style={{borderTop: 'color: white', width: '50%'}}/>
-        <p> My passion for web development started many years ago. Without any technical knowledge, I had to rely on freelancers and web development firms domestically and internationally to build my projects. It turned out to be one bad experience after another. These bad experiences are what motivated me to become a web developer myself and have given me the unique perspective of what it’s like to be the customer, the programmer and everything in between.</p>
-        <hr style={{borderTop: 'color: white', width: '50%'}}/>
+        <hr style={{borderTop: '3px solid white'}}/>
+        <p> My passion for web development started many years ago. without any technical knowledge, I had to rely on freelancers and web development firms domestically and internationally to build my projects. It turned out to be one bad experience after another. These bad experiences are what motivated me to become a web developer myself and have given me the unique perspective of what it’s like to be the customer, the programmer and everything in between.</p>
+        <hr style={{borderTop: '3px solid white'}}/>
         <h5>Address</h5>
-        <p>1 Hacker Way Menlo Park, 94025</p>
+        <p>923 Phoenix Way Weston Fl 33327</p>
         <h5>Phone</h5>
         <p>(516) 770-1696</p>
         <h5>Email</h5>
         <p>kbrisard1@gmail.com</p>
         <h5>Web</h5>
         <p>mywebsite.com</p>
-        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+        <hr style={{borderTop: '3px solid white'}}/>
         </Cell>
         <Cell className="resume-right-col" col={8}>
           <h2>Education</h2>
@@ -50,7 +50,7 @@ class Resume extends Component {
             schoolName="Wyncode Academy Miami,Fl"
             schoolDescription=" Wyncode Academy’s curriculum is based on industry leading concepts and technologies. Your typical day begins with an instructor-led session about a particular concept followed by time to apply what you have learned in a practical, project-based example – often mimicking websites or popular web applications that you already know and use. The days are capped off with business development and mentoring sessions."
           />
-          <hr style={{borderTop: '3px solid #e22947'}} />
+          <hr style={{borderTop: '3px solid white'}} />
 
           <h2>Experience</h2>
 
@@ -99,23 +99,7 @@ class Resume extends Component {
 
           />
           <hr style={{borderTop: '3px white'}} />
-          <h2>Skills</h2>
-          <Skills
-          skill="javascript"
-          progress={100}
-          />
-          <Skills
-          skill="HTML/CSS"
-          progress={80}
-          />
-          <Skills
-          skill="NODEJS"
-          progress={50}
-          />
-           <Skills
-          skill="REACT"
-          progress={25}
-          />
+
 
 
         </Cell>
