@@ -16,7 +16,7 @@ class Contact extends Component {
             />
           </Cell>
 
-          <Cell col={6} className='contact-right-grid'>
+          <Cell col={6} className="contact-right-grid">
             <h2>Contact Me</h2>
             <hr/>
             <div className='contact-list'>

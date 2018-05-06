@@ -15,8 +15,7 @@ class Landing extends Component {
 
 
     <hr/>
-
-    <p>Html/CSS | Bootstrap | Javascript | React | React Native | Node.Js | Express | MongoDB</p>
+      <p>Html 5/CSS | Bootstrap | Javascript | React.JS | Ruby on Rails | SQL | Agile Project Management | JQuery | </p>
 
     <div className="social-links">
 
