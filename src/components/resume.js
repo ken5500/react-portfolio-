@@ -25,7 +25,7 @@ class Resume extends Component {
         <p> My passion for web development started many years ago. without any technical knowledge, I had to rely on freelancers and web development firms domestically and internationally to build my projects. It turned out to be one bad experience after another. These bad experiences are what motivated me to become a web developer myself and have given me the unique perspective of what it’s like to be the customer, the programmer and everything in between.</p>
         <hr style={{borderTop: '3px solid white'}}/>
         <h5>Address</h5>
-        <p>923 Phoenix Way Weston Fl 33327</p>
+        <p>Weston ,Fl</p>
         <h5>Phone</h5>
         <p>(516) 770-1696</p>
         <h5>Email</h5>
